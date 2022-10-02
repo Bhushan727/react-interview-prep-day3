@@ -21,7 +21,7 @@ var sqr= useMemo(()=>{
         <label htmlFor="number">Enter Number : </label>
         <input type="number" onChange={(e)=>{setA(e.target.value)}} /> <br />
         <input type="text" onChange={ (e) => setZ(e.target.value)} />
-        {console.log(z);}
+        {console.log(z)}
   
         <h1>{sqr}</h1>
 
